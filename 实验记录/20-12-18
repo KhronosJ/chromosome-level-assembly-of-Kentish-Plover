@@ -1,0 +1,20 @@
+# 使用旧版本数据集比对评估
+
+## 下载aves_odb9数据集
+
+本地下载地址https://busco-archive.ezlab.org/v3/ 
+
+上传到/usr/section/tujie/database后
+
+解压，文件路径为
+
+>/usr/section/tujie/database/aves_odb10
+
+## 安装busco V3.0.2
+
+```bash
+##aves_odb9数据集只能由v3分析
+##envs1环境下安装
+(base) [tujie@AEE ~]$ conda activate envs1
+(envs1) [tujie@AEE ~]$ conda install busco=3.0.2
+```
