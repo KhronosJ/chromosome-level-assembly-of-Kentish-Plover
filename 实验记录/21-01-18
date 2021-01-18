@@ -1,0 +1,13 @@
+#第二次二代纠错
+```bash
+(env2) [tujie@AEE KP_p17S4_2]$ /usr/section/tujie/opt/biosoft/wtdbg-2.5_x64_linux/wtpoa-cns -t 16 -x sam-sr -d /usr/section2/kp/tujie/output/bwa/KP_p17S4/KP_p17S4.srp.fa -i - -fo KP_p17S4.srp2.fa
+--
+-- total memory      263853096.0 kB
+-- available         254215712.0 kB
+-- 40 cores
+-- Starting program: /usr/section/tujie/opt/biosoft/wtdbg-2.5_x64_linux/wtpoa-cns -t 16 -x sam-sr -d /usr/section2/kp/tujie/output/bwa/KP_p17S4/KP_p17S4.srp.fa -i - -fo KP_p17S4.srp2.fa
+-- pid                    187420
+-- date         Mon Jan 18 14:11:01 2021
+--
+
+```
