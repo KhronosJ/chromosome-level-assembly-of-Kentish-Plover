@@ -28,5 +28,31 @@ make: *** [/usr/section/tujie/miniconda3/envs/env2/bin/share/arcs-1.2.1-1/Exampl
 ##报错
 ##在envs3环境下安装samtools和arcs
 (envs3) [tujie@AEE ARCS]$ conda install samtools=1.9
+(envs3) [tujie@AEE ARCS]$ conda install bwa
+(envs3) [tujie@AEE ARCS]$  arcs-make arcs draft=/usr/section2/kp/tujie/output/bwa/KP_p17S4_3/KP_p17S4.srp reads=/usr/section2/kp/tujie/X101SC20061101-Z01_jirou_Data_Release_20201022/KPpb z=1000
+##程序中断
+[M::mem_process_seqs] Processed 4962 reads in 2372.588 CPU sec, 410.926 real sec
+[M::process] 5014 single-end sequences; 0 paired-end sequences
+[M::process] read 5020 sequences (80027985 bp)...
+[M::mem_process_seqs] Processed 5014 reads in 2028.618 CPU sec, 267.138 real sec
+[M::process] 5020 single-end sequences; 0 paired-end sequences
+[M::process] read 5168 sequences (80000601 bp)...
+[M::mem_process_seqs] Processed 5020 reads in 1962.249 CPU sec, 265.454 real sec
+[M::process] 5168 single-end sequences; 0 paired-end sequences
+[M::process] read 4886 sequences (80033455 bp)...
+[M::mem_process_seqs] Processed 5168 reads in 2673.919 CPU sec, 706.813 real sec
+[M::process] 4886 single-end sequences; 0 paired-end sequences
+[M::process] read 4950 sequences (80004776 bp)...
+[M::mem_process_seqs] Processed 4886 reads in 1973.483 CPU sec, 257.785 real sec
+[M::process] 4950 single-end sequences; 0 paired-end sequences
+[M::process] read 4892 sequences (80022490 bp)...
+[M::mem_process_seqs] Processed 4950 reads in 2110.366 CPU sec, 316.421 real sec
+[M::process] 4892 single-end sequences; 0 paired-end sequences
+[M::process] read 5046 sequences (80010406 bp)...
+[M::mem_process_seqs] Processed 4892 reads in 1955.841 CPU sec, 250.350 real sec
+[M::process] 5046 single-end sequences; 0 paired-end sequences
+[M::process] read 5090 sequences (80001908 bp)...
+
+
 
 ```
