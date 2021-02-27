@@ -85,6 +85,23 @@ Reading alignments: /dev/stdin
 [M::mm_mapopt_update::34.879*2.36] mid_occ = 138
 [M::mm_idx_stat] kmer size: 15; skip: 10; is_hpc: 0; #seq: 814
 [M::mm_idx_stat::36.079*2.32] distinct minimizers: 81880134 (49.22% are singletons); average occurrences: 2.824; average spacing: 5.340
+---
+=> Writing the ABySS graph file... Sat Feb 27 04:22:00 2021
+
+{ "All_barcodes_unfiltered":0, "All_barcodes_filtered":0, "Scaffold_end_barcodes":0, "Min_barcode_reads_threshold":50, "Max_barcode_reads_threshold":10000 }
+
+=> Writing TSV file... Sat Feb 27 04:22:00 2021
+
+=> Writing reads per barcode TSV file... Sat Feb 27 04:22:00 2021
+
+=> Done.
+Sat Feb 27 04:22:00 2021
+python /usr/section/tujie/miniconda3/envs/envs3/bin/share/arcs-1.2.1-1/Examples/../Examples/makeTSVfile.py /usr/section2/kp/tujie/output/bwa/KP_p17S4_3/KP_p17S4.srp_c5_m50-10000_cut250_s98_r0.05_e30000_z1000_original.gv /usr/section2/kp/tujie/output/bwa/KP_p17S4_3/KP_p17S4.srp_c5_m50-10000_cut250_s98_r0.05_e30000_z1000.tigpair_checkpoint.tsv /usr/section2/kp/tujie/output/bwa/KP_p17S4_3/KP_p17S4.srp.renamed.fa
+ln -s /usr/section2/kp/tujie/output/bwa/KP_p17S4_3/KP_p17S4.srp_c5_m50-10000_cut250_s98_r0.05_e30000_z1000.tigpair_checkpoint.tsv /usr/section2/kp/tujie/output/bwa/KP_p17S4_3/KP_p17S4.srp_c5_m50-10000_cut250_s98_r0.05_e30000_z1000_l5_a0.3.tigpair_checkpoint.tsv
+LINKS -f /usr/section2/kp/tujie/output/bwa/KP_p17S4_3/KP_p17S4.srp.renamed.fa -s empty.fof -b /usr/section2/kp/tujie/output/bwa/KP_p17S4_3/KP_p17S4.srp_c5_m50-10000_cut250_s98_r0.05_e30000_z1000_l5_a0.3 -l 5 -a 0.3 -z 1000
+Can't locate BloomFilter.pm in @INC (you may need to install the BloomFilter module) (@INC contains: /usr/section/tujie/miniconda3/envs/envs3/lib/site_perl/5.32.0/x86_64-linux-thread-multi /usr/section/tujie/miniconda3/envs/envs3/lib/site_perl/5.32.0 /usr/section/tujie/miniconda3/envs/envs3/lib/5.32.0/x86_64-linux-thread-multi /usr/section/tujie/miniconda3/envs/envs3/lib/5.32.0 .) at /usr/section/tujie/miniconda3/envs/envs3/bin/LINKS line 25.
+BEGIN failed--compilation aborted at /usr/section/tujie/miniconda3/envs/envs3/bin/LINKS line 25.
+make: *** [/usr/section/tujie/miniconda3/envs/envs3/bin/share/arcs-1.2.1-1/Examples/arcs-make:296: /usr/section2/kp/tujie/output/bwa/KP_p17S4_3/KP_p17S4.srp_c5_m50-10000_cut250_s98_r0.05_e30000_z1000_l5_a0.3.scaffolds.fa] Error 2
 
 ```
 
